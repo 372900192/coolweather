@@ -1,5 +1,7 @@
 package com.coolweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Province 信息
  * City 信息
@@ -10,7 +12,7 @@ package com.coolweather.android.db;
  * Created by lenovo on 2017/11/17.
  */
 
-public class Province {
+public class Province extends DataSupport {
     private int id;
     private String provinceName;
     private int provinceCode;

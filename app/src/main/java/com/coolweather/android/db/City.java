@@ -1,5 +1,7 @@
 package com.coolweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * City 信息
  * cityName 记录市的名字
@@ -8,7 +10,7 @@ package com.coolweather.android.db;
  * Created by lenovo on 2017/11/17.
  */
 
-public class City {
+public class City extends DataSupport {
     private int id;
     private String cityName;
     private int cityCode;
